@@ -20,7 +20,7 @@ import com.pruebas.model.SalaInt;
 @Controller
 public class Control {
 	
-	
+//Comentario
 	 @Autowired
 	 private PeliculaInt peliInt;
 
