@@ -22,6 +22,7 @@ public class Control {
 	
 //Comentario
 	//Desde remoto
+	//MasterPush
 	 @Autowired
 	 private PeliculaInt peliInt;
 
