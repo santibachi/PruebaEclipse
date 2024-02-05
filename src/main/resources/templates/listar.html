@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Insert title here</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div>
+        <a th:href="@{/con1}">Consulta 1</a>
+        <div th:if="${lista1 != null}">
+            <div th:if="${not lista1.isEmpty()}">
+                <ul th:each="obj : ${lista1}">
+                    <li th:text="${obj}"></li>
+                </ul>
+            </div>
+            <p th:if="${lista1.isEmpty()}">La consulta no devuelve nada</p>
+        </div>
+    </div>
+
+    <div>
+        <a th:href="@{/con2}">Consulta 2</a>
+        <div th:if="${lista2 != null}">
+            <div th:if="${not lista2.isEmpty()}">
+                <ul th:each="obj : ${lista2}">
+                    <li th:text="${obj}"></li>
+                </ul>
+            </div>
+            <p th:if="${lista2.isEmpty()}">La consulta no devuelve nada</p>
+        </div>
+    </div>
+
+    <div>
+        <a th:href="@{/con3}">Consulta 3</a>
+        <div th:if="${lista3 != null}">
+            <div th:if="${not lista3.isEmpty()}">
+                <ul th:each="obj : ${lista3}">
+                    <li th:text="${obj}"></li>
+                </ul>
+            </div>
+           <p th:if="${lista3.isEmpty()}">La consulta no devuelve nada</p>
+        </div>
+    </div>
+
+    <div>
+        <a th:href="@{/con4}">Consulta 4</a>
+        <div th:if="${lista4 != null}">
+            <div th:if="${not lista4.isEmpty()}">
+                <ul th:each="obj : ${lista4}">
+                    <li th:text="${obj}"></li>
+                </ul>
+            </div>
+            <p th:if="${lista4.isEmpty()}">La consulta no devuelve nada</p>
+        </div>
+    </div>
+
+    <div>
+        <a th:href="@{/con5}">Consulta 5</a>
+        <div th:if="${lista5 != null}">
+            <div th:if="${not lista5.isEmpty()}">
+                <ul th:each="obj : ${lista5}">
+                    <li th:text="${obj}"></li>
+                </ul>
+            </div>
+           <p th:if="${lista5.isEmpty()}">La consulta no devuelve nada</p>
+        </div>
+    </div>
+
+    <div>
+        <a th:href="@{/con6}">Consulta 6</a>
+        <div th:if="${lista6 != null}">
+            <div th:if="${not lista6.isEmpty()}">
+                <ul th:each="obj : ${lista6}">
+                    <li th:text="${obj}"></li>
+                </ul>
+            </div>
+            <p th:if="${lista6.isEmpty()}">La consulta no devuelve nada</p>
+        </div>
+    </div>
+
+    <div>
+        <a th:href="@{/con7}">Consulta 7</a>
+        <div th:if="${lista7 != null}">
+            <div th:if="${not lista7.isEmpty()}">
+                <ul th:each="obj : ${lista7}">
+                    <li th:text="${obj}"></li>
+                </ul>
+            </div>
+            <p th:if="${lista7.isEmpty()}">La consulta no devuelve nada</p>
+        </div>
+    </div>
+</body>
+</html>
