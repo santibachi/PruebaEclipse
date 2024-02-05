@@ -21,6 +21,7 @@ import com.pruebas.model.SalaInt;
 public class Control {
 	
 //Comentario
+	//Desde remoto
 	 @Autowired
 	 private PeliculaInt peliInt;
 
