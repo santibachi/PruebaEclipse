@@ -22,6 +22,7 @@ public class Control {
 	
 //Comentario
 	//Desde remoto
+	//Comentario desde otra rama
 	 @Autowired
 	 private PeliculaInt peliInt;
 
